@@ -1,2 +1,2 @@
 # flexbox
-A Google Serach Landing page
+A Google Search Landing page
