@@ -1,122 +1,85 @@
-/*CSS Document */
-* {
+ body{
+     background-color: rgb(211, 207, 206);
+ }
+ 
+ 
+ ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: arial, sans-serif;
-    font-size: 13px;
-
-}
-.container {
-    width: 480px;
-    margin: 140px  auto 0;
-    text-align: center;
-}
-
-h1#Logo {
-    width: 269px;
-    height: 95px;
-    background: url('bg.png') top left no-repeat;
-    background-size: 100%;
-    text-indent: -999px;
-    margin: 0 auto;
-}
-input[type="text"] {
-    width: 460px;
-    padding: 15px;
-    padding-left: 25px;
-    margin: 25px 0 18px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    border-radius: 24px;
-    outline:none;
-   
-}
-input[type="text"]:hover {
-    border-color:  #aaa;
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-}
-
-input[type="submit"] {
-    background: #eee;
-    color: #333;
-    border: 1px solid #ccc;
-    padding: 5px;
-    font-size: 11px;
-    font-family: arial, sans-serif;
-    font-weight: bold;
-    margin: 0 5;
-}
-input[type="submit"]:hover {
-    cursor: pointer;
-}
-
-small {
+    background-color: transparent;
+  }
+  
+  li {
     display: block;
-    margin: 10px  0 0 0;
-    font-style: 12px;
-}
-
-a:link  {
-    color: dodgerblue;
-}
-
-a:visited  {
-    color: dodgerblue;
-}
-nav#header {
-    text-align: right;
-    padding: 20px;
-}
-nav#header ul li {
-    display: inline;
-    
-
-}
-nav#header ul li a:link, 
-nav#header ul li a:visited,
-footer nav ul li a:link,
-footer nav ul li a:visited {
-    color: #555;
-    text-decoration: none;
-    padding: 10px;
-    
-}
-nav#header ul li a:hover,
-footer nav ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background: #cccccc;
-    
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
-}
-footer nav {
-    padding: 20px;
-    width: 100%;
-}
-footer nav ul li {
-    display: inline;
-
-}
-footer nav ul {
-    float: left;
-}
-
-footer nav ul.right-links {
     float: right;
-    margin-right: 48px; 
-}
-
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-
-}
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  button a {}
+  
+  .google-logo {
+    position: absolute;
+    margin: 10em 32.5em;
+  }
+  
+  .feeling-lucky {
+    position: absolute;
+    margin: 20em 32.5em;
+    width: 400px;
+  }
+  
+  #searchbar {
+    position: absolute;
+    top: 260px;
+    left: 375px;
+    width: 580px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+  }
+  
+  #search_button {
+    position: absolute;
+    top: 310px;
+    left: 550px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444!important;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    border-radius: 2px;
+  }
+  
+  #lucky_button {
+    position: absolute;
+    top: 310px;
+    left: 680px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444!important;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    border-radius: 2px;
+  }
+  
+  .footer {
+    background-color: rgb(211, 207, 206);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    margin: 20em;
+  }
