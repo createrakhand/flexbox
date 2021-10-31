@@ -1,5 +1,6 @@
  body{
-     background-color: rgb(211, 207, 206);
+     background-color: rgb(243, 240, 239);
+     background-image: url
  }
  
  
@@ -28,6 +29,7 @@
   .google-logo {
     position: absolute;
     margin: 10em 32.5em;
+    align-content: center;
   }
   
   .feeling-lucky {
@@ -43,6 +45,8 @@
     width: 580px;
     height: 30px;
     border: 1px solid #cdcdcd;
+    border-radius: 15px;
+    border-color: #444;
   }
   
   #search_button {
@@ -74,12 +78,13 @@
   }
   
   .footer {
-    background-color: rgb(211, 207, 206);
-    position: absolute;
+    position:relative;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 25px;
     text-align: center;
     margin: 20em;
+    color: white;
+    
   }
